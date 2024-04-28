@@ -8,7 +8,6 @@ from django.shortcuts import redirect
 # Register your models here.
 from . import models
 
-
 class AppointmentAdmin(admin.ModelAdmin):
     list_display = [
         "doctor_name",
